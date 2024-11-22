@@ -1,33 +1,40 @@
 # my-steps-to-install-dotnetcoresdk-vscode-runwithdebug
 
-[Documenting my steps to install dotnet-sdk-8.0.11 on my Asus Notebook running GarudaLinux-Cinammon x64, creating my first Asp.Net Core MVC Web App and Run-with-Debug in VSCode]
+### [Documenting my steps to install dotnet-sdk-8.0.11 on my Asus Notebook running GarudaLinux-Cinammon x64, creating my first Asp.Net Core MVC Web App and Run-with-Debug in VSCode]
 ------------------------------------------------------------
-[Friday November 22nd, 2024 @ 21:12 PM (Bahrain-Local-Time)]
+### [Friday November 22nd, 2024 @ 21:12 PM (Bahrain-Local-Time)]
 
 ------------------------------------------------------------
-#### (Note): It took me many attempts to get this right, with VSCode Run-with-Debug to work.  So, decided to document the steps for future reference.
+### (Note): It took me many attempts to get this right, with VSCode Run-with-Debug to work.  So, decided to document the steps for future reference.
 
 -------------------------------------------------------------
-#### (Note): "fish" and "bash" shells.
+### (Note): "fish" and "bash" shells.
 
 -------------------------------------------------------------
 
 ### References:
 
-(.NET 8.0 SDK (v8.0.404) - Linux x64 Binaries) ==> **URL: https://dotnet.microsoft.com/en-us/download/dotnet/8.0**
+#### (.NET 8.0 SDK (v8.0.404) - Linux x64 Binaries) ==> **URL: https://dotnet.microsoft.com/en-us/download/dotnet/8.0**
 
-(MS.Learn-Docs - DotNetCore8 Manual Install on Linux)==>**URL: https://learn.microsoft.com/en-us/dotnet/core/install/linux-scripted-manual#manual-install**
 
-("fish shell" set - display and change shell variables)==>**URL: https://fishshell.com/docs/current/cmds/set.html**
+#### (MS.Learn-Docs - DotNetCore8 Manual Install on Linux)==>**URL: https://learn.microsoft.com/en-us/dotnet/core/install/linux-scripted-manual#manual-install**
 
-(StackExchange How to check if a directory exists in Linux command line?)==>**URL: https://superuser.com/questions/98825/how-to-check-if-a-directory-exists-in-linux-command-line**
 
-("fish shell" - fish_add_path command)==>**URL: https://fishshell.com/docs/current/cmds/fish_add_path.html**
+#### ("fish shell" set - display and change shell variables)==>**URL: https://fishshell.com/docs/current/cmds/set.html**
 
-(Enforce HTTPS in ASP.NET Core - Linux )==>**URL: https://aka.ms/dotnet-https-linux**
-(Enforce HTTPS in ASP.NET Core - Linux )==>**URL: https://learn.microsoft.com/en-us/aspnet/core/security/enforcing-ssl?view=aspnetcore-8.0&tabs=visual-studio%2Clinux-sles#trust-https-certificate-on-linux-with-linux-dev-certs**
 
-(open-source, community-supported, .NET global tool that provides a convenient way to create and trust a developer certificate on Linux. The tool is not maintained or supported by Microsoft.)==>**URL: https://github.com/tmds/linux-dev-certs**
+#### (StackExchange How to check if a directory exists in Linux command line?)==>**URL: https://superuser.com/questions/98825/how-to-check-if-a-directory-exists-in-linux-command-line**
+
+
+#### ("fish shell" - fish_add_path command)==>**URL: https://fishshell.com/docs/current/cmds/fish_add_path.html**
+
+
+#### (Enforce HTTPS in ASP.NET Core - Linux )==>**URL: https://aka.ms/dotnet-https-linux**
+
+#### (Enforce HTTPS in ASP.NET Core - Linux )==>**URL: https://learn.microsoft.com/en-us/aspnet/core/security/enforcing-ssl?view=aspnetcore-8.0&tabs=visual-studio%2Clinux-sles#trust-https-certificate-on-linux-with-linux-dev-certs**
+
+
+#### (open-source, community-supported, .NET global tool that provides a convenient way to create and trust a developer certificate on Linux. The tool is not maintained or supported by Microsoft.)==>**URL: https://github.com/tmds/linux-dev-certs**
 
 
 -------------------------------------------------------------
